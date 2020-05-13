@@ -78,6 +78,7 @@ const withLoadingScreenBase = (resources:any, config:any) => (WrappedComponent:a
               && !this.props[`loading_${c_propName}`]
             // @ts-ignore
               && !this.props[`error_${c_propName}`]) {
+            // @ts-ignore
               this.props.fetch(c_propName, c_url)
             }
           })
