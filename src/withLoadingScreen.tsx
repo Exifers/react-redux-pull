@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import {fetchAjaxStoreData} from "./actions";
 import {connect} from "react-redux";
 
-// TODO configurable loading screen
 const LoadingScreen = () => <div>Loading ...</div>;
 
 // TODO possible list of requests based on previous requests
