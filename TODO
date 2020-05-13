@@ -1,0 +1,2 @@
+- dynamic list of requests
+- configurable store namespace (currently it's always 'ajax')

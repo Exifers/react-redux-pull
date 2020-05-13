@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,7 +20,8 @@
   "peerDependencies": {
     "react": ">=16",
     "react-redux": ">=7.2.0",
-    "redux": ">=4.0.5"
+    "redux": ">=4.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "husky": {
     "hooks": {
